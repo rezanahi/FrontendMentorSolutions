@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Blog preview card</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__image">
+        <img
+          src="./assets/images/illustration-article.svg"
+          alt=""
+          class="image"
+        />
+      </div>
+      <span class="card__category"> یادگیری </span>
+      <p class="card__publish-date">منتشر شده در 8 فروردین 1403</p>
+      <h2 class="card__title">اچ تی ام ال و سی اس اس مقدماتی</h2>
+      <p class="card__summary">
+        این زبان ها درواقع اسکلت همه ی سایت ها را مشخص میکنند و در پشت پرده هر
+        وبسایتی استفاده شده اند، همچنین نحوه ی ارائه محتوا و ساختار آنرا تعیین
+        میکنند
+      </p>
+      <div class="author-info">
+        <div class="author-info__image">
+          <img src="./assets/images/image-avatar.webp" alt="" class="image" />
+        </div>
+        <p class="author-info__name">محمدرضا</p>
+      </div>
+    </div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution" style="display: none">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>
