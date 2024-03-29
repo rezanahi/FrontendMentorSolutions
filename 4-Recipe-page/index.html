@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,115 @@
   <title>Frontend Mentor | Recipe page</title>
   <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
+  <main>
+    <div class="recipe-card">
+      <div class="recipe-card__image-wrapper">
+        <img src="./assets/images/image-omelette.jpeg" alt="omelette image" class="recipe-card__image">
+      </div>
+      <div class="recipe-card__wrapper">
+        <h1 class="recipe-card__title">دستور پخت املت ساده</h1>
+        <p class="recipe-card__description">یک غذای سریع و آسان ، مناسب برای هروعده غذایی ، این املت کلاسیک مخلوطی از تخم
+          مرغ های پخته شده و همچنین با انتخاب شما شامل پنیر ، سبزیجات و یا گوشت است .</p>
+        <div class="preparation-time">
+          <h3 class="preparation-time__title">
+            زمان آماده سازی
+          </h3>
+          <ul class="preparation-time__list">
+            <li class="preparation-time__list-item">
+              <p><strong>زمان کل : </strong> تقریبا 10 دقیقه</p>
+            </li>
+            <li class="preparation-time__list-item">
+              <p><strong>زمان آماده سازی : </strong>5 دقیقه</p>
+            </li>
+            <li class="preparation-time__list-item">
+              <p><strong>زمان پخت : </strong> 5 دقیقه</p>
+            </li>
+          </ul>
+        </div>
+        <section class="recipe-card-section">
+          <h2 class="recipe-card-section__title">مواد لازم</h2>
+          <ul class="recipe-card-section__list">
+            <li class="recipe-card-section__list-item">
+              2 الی 3 تخم مرغ بزرگ
+            </li>
+            <li class="recipe-card-section__list-item">
+              نمک به میزان دلخواه
+            </li>
+            <li class="recipe-card-section__list-item">
+              فلفل به میزان دلخواه
+            </li>
+            <li class="recipe-card-section__list-item">
+              1 قاشق غذاخوری کره یا روغن
+            </li>
+            <li class="recipe-card-section__list-item">
+              پنیر ، سبزیجات خورد شده ، گوشت پخته شده ، ادویه (اختیاری)
+            </li>
+          </ul>
+          <hr class="recipe-card-section__hr">
+        </section>
   
+        <section class="recipe-card-section">
+          <h2 class="recipe-card-section__title">دستورپخت</h2>
+          <ol class="recipe-card-section__list">
+            <li class="recipe-card-section__list-item">
+              <p class="recipe-card-section__list-item-text"><strong>تخم مرغ هارا بشکنید : </strong>در یک کاسه تخم مرغ
+                هارا با مقداری نمک و فلفل هم بزنید تا خوب مخلوط شوند ، میتوانید یک قاشق غذاخوری آب یا شیر اضافه کنید تا
+                بافت بهتری پیدا کند . </p>
+            </li>
+            <li class="recipe-card-section__list-item">
+              <p class="recipe-card-section__list-item-text"><strong>ماهیتابه را گرم کنید : </strong>یک ماهیتابه سرخ کردنی
+                را روی حرارت متوسط قرار دهید و کره و روغن به آن اضافه کنید</p>
+            </li>
+            <li class="recipe-card-section__list-item">
+              <p class="recipe-card-section__list-item-text"><strong>املت را بپزید : </strong>هنگامی که کره ذوب شد تخم مرغ
+                هارا اضافه کنید و ماهیتابه را خم کنید تا تخم مرغ ها به صورت یکنواخت سطح ماهیتابه را بپوشانند . </p>
+            </li>
+            <li class="recipe-card-section__list-item">
+              <p class="recipe-card-section__list-item-text"><strong>مواد پر کننده را اضافه کنید (اختیاری) :
+                </strong>زمانی که تخم مرغ در کناره ها پخته شده و در وسط همچنان آبی باقی مانده است مواد دلخواه خود را به
+                یکی از نصفه های املت اضافه کنید . </p>
+            </li>
+            <li class="recipe-card-section__list-item">
+              <p class="recipe-card-section__list-item-text"><strong>سرو کردن : </strong>زمانی که املت همچنان در حال پخت
+                است ، با دقت یکی از لبه هارا بلند کرده و آنرا روی لبه دیگر قرار دهید و پنیر را روی آن اضافه کنید ، اجازه
+                دهید یک دقیقه دیگر بپزد ، سپس آنرا داخل بشقاب قرار دهید . </p>
+            </li>
+            <li class="recipe-card-section__list-item">
+              <p class="recipe-card-section__list-item-text"><strong>لذت ببرید : </strong>گرم سرو کنید ، درصورت نیاز با
+                نمک و فلفل اضافی . </p>
+            </li>
+          </ol>
+          <hr class="recipe-card-section__hr">
+        </section>
+  
+        <section class="recipe-card-section">
+          <h2 class="recipe-card-section__title">تغذیه</h2>
+          <p class="recipe-card-section__description">جدول زیر مقادیر تغذیه را برای هر سرو بدون مواد دلخواه اضافی نشان
+            میدهد . </p>
+          <table class="recipe-card-section__table">
+            <tr class="recipe-card-section__teble-row">
+              <td class="recipe-card-section__teble-col-name">کالری</td>
+              <td class="recipe-card-section__teble-col-value">277 کیلو کالری</td>
+            </tr>
+            <tr class="recipe-card-section__teble-row">
+              <td class="recipe-card-section__teble-col-name">کربوهیدرات</td>
+              <td class="recipe-card-section__teble-col-value">0 گرم</td>
+            </tr>
+            <tr class="recipe-card-section__teble-row">
+              <td class="recipe-card-section__teble-col-name">پروتئین</td>
+              <td class="recipe-card-section__teble-col-value">20 گرم</td>
+            </tr>
+            <tr class="recipe-card-section__teble-row">
+              <td class="recipe-card-section__teble-col-name">چربی</td>
+              <td class="recipe-card-section__teble-col-value">22 گرم</td>
+            </tr>
+          </table>
+        </section>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>
