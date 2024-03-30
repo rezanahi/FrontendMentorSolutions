@@ -1,3 +1,39 @@
+@font-face {
+    font-family: vazir;
+    src: url(../assets/fonts/Vazir-FD.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: vazir;
+    src: url(../assets/fonts/Vazir-Thin-FD.ttf) format(truetype);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: vazir;
+    src: url(../assets/fonts/Vazir-Light-FD.ttf) format(truetype);
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: vazir;
+    src: url(../assets/fonts/Vazir-Medium-FD.ttf) format(truetype);
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: vazir;
+    src: url(../assets/fonts/Vazir-Bold-FD.ttf) format(truetype);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: vazir;
+    src: url(../assets/fonts/Vazir-Black-FD.ttf) format(truetype);
+    font-style: normal;
+    font-weight: 900;
+}
 body{
     background-color: #D5E1EF;
     display: flex;
@@ -10,7 +46,7 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Dana;
+    font-family: vazir;
 }
 .card{
     width: 288px;
